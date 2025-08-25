@@ -10,3 +10,5 @@ st.write("El número es: ",number)
 n = st.slider("n", 5,100, step=1)
 chart_data = pd.DataFrame(np.random.randn(n),columns=['data'])
 st.line_chart(chart_data)
+
+choice=st.number_input("Elige un número: ", 1, 31)
